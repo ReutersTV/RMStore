@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A0AF3D0717A802F300D2E836"
-               BuildableName = "libRMStore.a"
-               BlueprintName = "RMStore"
+               BlueprintIdentifier = "C14FB9451B20938900143FC8"
+               BuildableName = "RMStore iOS.framework"
+               BlueprintName = "RMStore iOS"
+               ReferencedContainer = "container:RMStore.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C14FB94F1B20938900143FC8"
+               BuildableName = "RMStore iOSTests.xctest"
+               BlueprintName = "RMStore iOSTests"
                ReferencedContainer = "container:RMStore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,18 +46,22 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A0AF3D1817A802F300D2E836"
-               BuildableName = "RMStoreTests.xctest"
-               BlueprintName = "RMStoreTests"
+               BlueprintIdentifier = "C14FB94F1B20938900143FC8"
+               BuildableName = "RMStore iOSTests.xctest"
+               BlueprintName = "RMStore iOSTests"
                ReferencedContainer = "container:RMStore.xcodeproj">
             </BuildableReference>
-            <SkippedTests>
-               <Test
-                  Identifier = "RMStoreKeychainPersistenceTests">
-               </Test>
-            </SkippedTests>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C14FB9451B20938900143FC8"
+            BuildableName = "RMStore iOS.framework"
+            BlueprintName = "RMStore iOS"
+            ReferencedContainer = "container:RMStore.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -57,9 +75,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0AF3D0717A802F300D2E836"
-            BuildableName = "libRMStore.a"
-            BlueprintName = "RMStore"
+            BlueprintIdentifier = "C14FB9451B20938900143FC8"
+            BuildableName = "RMStore iOS.framework"
+            BlueprintName = "RMStore iOS"
             ReferencedContainer = "container:RMStore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,6 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C14FB9451B20938900143FC8"
+            BuildableName = "RMStore iOS.framework"
+            BlueprintName = "RMStore iOS"
+            ReferencedContainer = "container:RMStore.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
