@@ -170,7 +170,7 @@
 		C9F0A42D19A23EE000811E80 /* GTMCodeCoverageApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMCodeCoverageApp.h; sourceTree = "<group>"; };
 		C9F0A42E19A23EE000811E80 /* GTMCodeCoverageApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMCodeCoverageApp.m; sourceTree = "<group>"; };
 		C9F0A42F19A23EE000811E80 /* GTMCodeCoverageTestsXC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMCodeCoverageTestsXC.m; sourceTree = "<group>"; };
-		DD4F92881C0F490800CDBF01 /* RMStore tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RMStore tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4F92881C0F490800CDBF01 /* RMStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F92891C0F490800CDBF01 /* RMStore tvOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RMStore tvOS-Info.plist"; path = "/Users/u6033887/dev/RMStore/RMStore tvOS-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -319,7 +319,7 @@
 				A0AF3D7217A8085900D2E836 /* RMStoreDemo.app */,
 				C14FB9461B20938900143FC8 /* RMStore.framework */,
 				C14FB9501B20938900143FC8 /* RMStore iOSTests.xctest */,
-				DD4F92881C0F490800CDBF01 /* RMStore tvOS.framework */,
+				DD4F92881C0F490800CDBF01 /* RMStore.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -579,7 +579,7 @@
 			);
 			name = "RMStore tvOS";
 			productName = "RMStore iOS";
-			productReference = DD4F92881C0F490800CDBF01 /* RMStore tvOS.framework */;
+			productReference = DD4F92881C0F490800CDBF01 /* RMStore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1153,7 +1153,7 @@
 				PRODUCT_NAME = RMStore;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 3;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1191,7 +1191,7 @@
 				PRODUCT_NAME = RMStore;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 3;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
