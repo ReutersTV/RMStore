@@ -21,6 +21,14 @@
 #import <Foundation/Foundation.h>
 #import <StoreKit/StoreKit.h>
 
+
+//! Project version number for RMStore iOS.
+FOUNDATION_EXPORT double RMStoreVersionNumber;
+
+//! Project version string for RMStore iOS.
+FOUNDATION_EXPORT const unsigned char RMStoreVersionString[];
+
+
 @protocol RMStoreContentDownloader;
 @protocol RMStoreReceiptVerificator;
 @protocol RMStoreTransactionPersistor;
